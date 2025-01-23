@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seda Diril Boyraz">
+    <meta name="description" content="7. Hafta Ödevi">
+    <link rel="stylesheet" href="style.css">
+    <title>7. Hafta Ödevi</title>
+</head>
+<body>
+    <header>
+        <h1>Popülasyonu En Yüksek 10 Ülke <br> & <br> En Çok Konuşulan 10 Dil</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <button id="toggleCountries">- Ülkeler</button>
+            <button id="toggleLanguages">- Diller</button>
+        </div>
+        <section id="countries">
+          <h2>Popülasyonu En Yüksek 10 Ülke</h2>
+          <canvas id="countriesChart"></canvas>
+        </section>
+        <section id="languages">
+          <h2>En Çok Konuşulan 10 Dil</h2>
+          <canvas id="languagesChart"></canvas>
+        </section>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

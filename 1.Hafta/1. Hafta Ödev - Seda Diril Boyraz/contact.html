@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1. Hafta ödevi">
+    <meta name="author" content="Seda DİRİL BOYRAZ">
+    <title>İLETİŞİM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="baslik">
+    <p><img src="./pics/logo.png" alt="logo" width="900" height="100"></p>
+    <nav>
+        <button>
+            <a href="./index.html">ANASAYFA</a>
+        </button>
+        <Button>
+            <a href="./about.html">HAKKIMIZDA</a>
+        </Button>
+        <Button>
+            <a href="./edu.html">EĞİTİM</a>
+        </Button>
+        <Button>
+            <a href="./talent.html">YETENEKLER</a>
+        </Button>
+        <Button>
+            <a href="./project.html">PROJELER</a>
+        </Button>
+        <Button>
+            <a href="./contact.html">İLETİŞİM</a>
+        </Button>
+        <hr>
+    </nav>
+
+        <p><h1>İLETİŞİM</h1></p>
+    </div>
+    <div class="icerik">
+        <div class="contact">
+        <form method="GET" >
+            <table>
+                <thead>
+                    <tr>
+                        <th>İletişim</th>
+                        <th style="text-align: left;">Formu</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <th><label for="fName">Ad: </label></th>
+                        <td><input  type="text" name="firsName" id="fName" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="lName">Soyad: </label></th>
+                        <td><input type="text" name="lastName" id="lName" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="phone">Telefon Numarası: </label></th>
+                        <td><input type="tel" name="phoneNumber" id="phone" placeholder="+90 555 555 55 55" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">E-Posta Adresi: </label></th>
+                        <td><input  type="email" name="email" id="email" placeholder="example@mail.com"></td>
+                    </tr>
+                    
+                    <tr>
+                        <th>Kullandığınız Cihaz:</th>
+                        <td>
+                            <br>
+                            <input type="radio" name="Cihaz" value="telefon" id="c-1">
+                            <label for="c-1">Telefon</label>
+                            <br>
+                            <input type="radio"  name="Cihaz" value="bilgisayar" id="c-2">
+                            <label for="c-2">Bilgisayar</label>
+                            <br>
+                            <input type="radio" name="Cihaz" value="tablet" id="c-3">
+                            <label for="c-3">Tablet</label>
+                        </td>
+                    </tr>
+   
+                    <tr>
+                        <th><label for="addressDetail">Açıklama:</label></th>
+                        <td><textarea maxlength="140" name="addreessDetail" id="addreessDetail" cols="30" rows="5" required></textarea></td>
+                    </tr>
+    
+                </tbody>
+    
+                <tfoot>
+
+                        <td style="text-align: right;"> <button type="submit" > Gönder </button> </td>
+                        <td> <button type="reset">Temizle </button> </td>
+                    </tr>
+                </tfoot>
+            </table>
+    
+        </form>
+    </div>
+    </div>
+</body>
+<footer>
+    <hr>
+    &copy; Seda DİRİL BOYRAZ
+</footer>
+</html>

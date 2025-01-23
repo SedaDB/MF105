@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="myStyles.css" />
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              kirmizi: "#da373d",
+            },
+            margin: {
+              kucuk: "5px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div
+      class="container mx-auto bg-[#07a] sm:bg-[#aca] md:bg-[red] lg:bg-[green] xl:bg-[blue]"
+    >
+      <p class="uppercase text-lg m-kucuk">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam
+        magnam alias, rerum esse accusamus fugiat id ea vitae animi beatae nemo,
+        temporibus voluptate sed porro in dolores, voluptatum quam. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Doloribus, error? Optio
+        fugiat praesentium quas libero perferendis repellat, ratione voluptatem
+        nesciunt omnis quasi dignissimos architecto eaque vitae ducimus, tenetur
+        soluta illo cum ipsam inventore autem. Ea veritatis fugit tenetur iure,
+        est, totam labore provident officia enim libero perspiciatis, rem
+        nesciunt quibusdam illum magnam placeat earum sint quisquam dolor non!
+        Doloremque, excepturi consequatur dicta minima rerum ipsa odio id nisi
+        explicabo aliquam, perferendis reprehenderit quas ipsum blanditiis
+        possimus, adipisci sunt. Culpa accusantium hic, numquam voluptas ut
+        sequi totam exercitationem rem optio provident soluta. Ab iure ea qui
+        nisi vel. Animi fuga dolorum voluptatum magni beatae enim ratione,
+        pariatur natus, sunt quod eligendi ipsam harum nulla quis quos neque ad
+        cupiditate expedita tenetur assumenda omnis saepe. Iusto veniam est
+        cupiditate. Fuga, recusandae? Sint perferendis voluptates, ad commodi
+        velit blanditiis optio delectus? Nobis officiis numquam provident, et
+        fuga soluta similique in vero voluptatibus ducimus veniam eveniet
+        aliquid expedita ipsa at adipisci! Aliquam, omnis corporis laudantium
+        dolores autem praesentium, delectus dignissimos odio nisi nostrum
+        placeat ab sint vel id, incidunt voluptatum pariatur temporibus dolorem
+        sit. Molestias commodi quidem modi, officiis ipsa veritatis natus
+        nostrum quis doloribus est atque, dignissimos facere fuga quae aliquam
+        rem quas!
+      </p>
+    </div>
+    <div
+      class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mt-2"
+    >
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img
+            class="h-48 w-full object-cover md:h-full md:w-48"
+            src="https://i.pinimg.com/736x/80/7b/0d/807b0d00ea3aab1bdf89012248e9d97a.jpg"
+            alt="Modern building architecture"
+          />
+        </div>
+        <div class="p-8">
+          <div
+            class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+          >
+            Company retreats
+          </div>
+          <a
+            href="#"
+            class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+            >Incredible accommodation for your team</a
+          >
+          <p class="mt-2 colorRed">
+            Looking to take your team away on a retreat to enjoy awesome food
+            and take in some sunshine? We have a list of places to do just that.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

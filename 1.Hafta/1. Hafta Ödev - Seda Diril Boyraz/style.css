@@ -1,0 +1,89 @@
+body{
+    font-family: Verdana;
+}
+.baslik img{
+    background-color: black;
+}
+.baslik{
+    width: 900px;
+    text-align: center;
+}
+.baslik button{
+    border-radius: 30%;
+    margin-left: 25px;
+    padding: 5px;
+    background-color: white;
+}
+.baslik a{
+    text-decoration: none;
+}
+footer{
+    width: 900px;
+}
+.icerik{
+    width: 900px;
+    padding: 2%;
+}
+#clr{
+    color: red;
+}
+#sag{
+    text-align: right;
+    
+}
+.edu{
+    text-align: center;
+}
+.edu img{
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.talents{
+    width: 850px;
+    height: 750px;
+    margin: auto;    
+}
+.talent{
+    width: 250px;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 50px;
+    margin-inline: 10px;
+    text-align: center;
+    padding-top: 1px;
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 25%;
+}
+.talent img{
+    width: 150px;
+    height: 100px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project{
+    width: 850px;
+    height: 750px;
+    text-align: justify;
+}
+.project-content {
+    display: none;
+}
+
+#pro1:checked ~ #project1,
+#pro2:checked ~ #project2,
+#pro3:checked ~ #project3,
+#pro4:checked ~ #project4 {
+    display: block;
+}
+.project label{
+    margin-right: 60px;
+    font-weight: bold;
+}
+.contact table{
+    margin: auto;
+    width: 850px;
+}
+.contact th{
+    text-align: right;
+}

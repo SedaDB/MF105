@@ -1,0 +1,21 @@
+.backgroundLinear {
+  background-image: linear-gradient(to right, red, blue, aqua);
+  /* background-image: radial-gradient(red, blue); */
+  height: 200px;
+  width: 100%;
+}
+.backgroundImage {
+  background-image: url("https://static.live.bbc.co.uk/bbcle/0.2.66/img/theme/header-bg.png");
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  /* overflow hidden verildiginde taşmalar gozukmeyecektir */
+}
+.backgroundLocalImage {
+  background-image: url("./Assets/header-bg.png");
+  /* yerel resimleri yuklemek icin kullanilir */
+  height: 200px;
+  width: 100%;
+}

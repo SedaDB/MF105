@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.navbar a p {
+  /* navbar'in altinda ki butun a taginin altindaki p tagleri bu css'i alacak */
+  /* border-right: 1px solid black; */
+  color: black;
+  padding: 20px 40px;
+  font-weight: 500;
+}
+.navbar-left p {
+  border-right: 1px solid black;
+}
+.navbar-right p {
+  border-left: 1px solid black;
+}
+.navbar-left,
+.navbar-right {
+  display: flex;
+}
+.mobile-menu-bar,
+.mobile-menu-cart {
+  display: none;
+}
+.urunAciklama {
+  padding: 80px;
+  display: flex;
+  flex: 1;
+  max-width: 50%;
+  flex-direction: column;
+  /* fd eger column ise rowgap kullanilacak
+    row ise col-gap kullanilacak
+  */
+  row-gap: 30px;
+  flex-shrink: 0;
+}
+
+.urunContainer {
+  display: flex;
+  flex: 1;
+}
+.urunler {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.photo-description {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.photo-description img {
+}
+.description {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 640px) {
+  /* telefon */
+
+  .navbar-left,
+  .navbar-right {
+    display: none;
+  }
+  .mobile-menu-bar {
+    border-right: 1px solid black;
+    display: block;
+  }
+  .mobile-menu-cart {
+    border-left: 1px solid black;
+    display: block;
+  }
+
+  .navbar i {
+    padding: 15px;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  /* tablet */
+}
+@media screen and (min-width: 768px) {
+  /* Desktop */
+}
+
+@media screen and (min-width: 1024px) {
+  /* genis ekranlar icin */
+}
+.urunSatir {
+  display: flex;
+}
+.urun_left,
+.urun_right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.urun_right img {
+  max-width: 100%;
+}
+#shop_now {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#urun_baslik {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  column-gap: 10px;
+}

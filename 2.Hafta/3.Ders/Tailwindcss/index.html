@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>tailwindcss</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              kirmizi: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="w-[100px] h-[100px] bg-kirmizi rounded-lg shadow-md m-3"></div>
+    <p class="text-kirmizi m-5px">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      earum maxime consequuntur quibusdam doloribus. Minus cupiditate odio totam
+      adipisci in optio repudiandae, mollitia, consectetur hic temporibus fuga
+      maxime explicabo nobis?
+    </p>
+  </body>
+</html>

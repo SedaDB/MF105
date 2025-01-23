@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#B88E2F",
+              background: "#FFF3E3",
+            },
+            backgroundImage: {
+              bg: "url('./assets/images/bg.png')",
+            },
+          },
+          fontFamily: {
+            appFont: "Poppins",
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <ul class="shadow flex py-4">
+      <li class="mr-4">Home</li>
+      <li>Shop</li>
+    </ul>
+    <div
+      class="bg-[url('./assets/images/bg.png')] h-[716px] w-full bg-no-repeat bg-center bg-cover"
+    >
+      <div class="container mx-auto flex justify-end sm:items-center sm:h-full">
+        <div
+          class="rounded-xl bg-background padding-[50px] flex flex-col w-[560px] p-[50px] rounded gap-y-[20px]"
+        >
+          <h6>New Arrival</h6>
+          <h1 class="text-primary">Discover Our New Collection</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+            distinctio culpa in, iure quae enim? Minus illum nesciunt
+            consequuntur officiis!
+          </p>
+          <a href="#" target="_blank" class="uppercase bg-primary text-white">
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

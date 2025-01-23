@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+/* * butun elementleri etkiler */
+#menu {
+  /* id ile tanimlanmis bir css # ile baslamak zorundadir,
+  ve class'i ezer
+  unique(tekil) olmak zorundadir, 
+  */
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(32, 8, 56);
+  margin: 0;
+  padding-right: 10px;
+}
+.menu {
+  background-color: green;
+}
+.menuList {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding-left: 40px;
+}
+.menuList li {
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+  border-right: 1px solid white;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 20px;
+  padding: 10px;
+}
+
+@media (min-width: 540px) {
+  /* 540px'den buyuk ekranlarda calisacak cssler */
+  .fa-bars {
+    display: none !important;
+  }
+}
+@media (max-width: 540px) {
+  /* 540px'den kucuk ekranlarda calisacak cssler */
+  .menuList {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+    display: none;
+  }
+  .menuList li {
+    border-right: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+  }
+  .menuList li p {
+    display: none;
+    /* gorunmez hale getirildi */
+  }
+  #menu {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fa-house {
+    display: inline-block;
+    /* display tekrar gorunmesini saglayacaktir */
+  }
+  .fa-bars {
+    color: white;
+  }
+  .hamburgerMenu:hover + .menuList {
+    display: block;
+  }
+}
