@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+  .input {
+    @apply border border-gray-400 rounded p-2;
+  }
+  .field {
+    @apply mb-4;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: white;
+}
+
+[data-theme="light"] {
+  --bg-color: white;
+  --text-color: black;
+}
+
+input {
+  color: black;
+}
