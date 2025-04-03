@@ -48,10 +48,6 @@ React Native kullanarak geliştirilen bu uygulama, kullanıcının girdiği metn
 - Temizle butonu çalışmalı
 - Uzun metin girildiğinde hata mesajı gösterilmeli
 
-## 📷 Ekran Görüntüsü (Opsiyonel)
-
-> İstersen buraya bir simülasyon ekran görüntüsü ekleyebilirsin.
-
 ## 📝 Lisans
 
 Bu proje yalnızca eğitim amaçlıdır.
