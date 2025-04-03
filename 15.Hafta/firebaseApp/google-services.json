@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406564630334",
+    "project_id": "firstofseda",
+    "storage_bucket": "firstofseda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406564630334:android:c211fea1b562dbbec7066f",
+        "android_client_info": {
+          "package_name": "com.anonymous.firebaseApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHfVaMlKUTPbD64c-xEr_9TwIjQej_4zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
