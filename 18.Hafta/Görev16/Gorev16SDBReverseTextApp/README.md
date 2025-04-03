@@ -1,6 +1,6 @@
 # 📱 Reverse Text App
 
-React Native kullanarak geliştirilen bu uygulama, kullanıcının girdiği metni tersine çevirir ve ekranda gösterir. Eğitim amaçlı bu proje, temel arayüz oluşturma, fonksiyonel bileşenler kullanımı ve test yazımı konularını kapsamaktadır.
+React Native (TypeScript) kullanılarak geliştirilen bu uygulama, kullanıcının girdiği metni tersine çevirir ve ekranda gösterir. Proje, temel bileşen yapısı, kullanıcı etkileşimi ve test süreçlerini kapsamaktadır.
 
 ## 🚀 Özellikler
 
@@ -26,27 +26,35 @@ React Native kullanarak geliştirilen bu uygulama, kullanıcının girdiği metn
    npm test
    ```
 
+## 🧪 Test Sonuçları
+
+```
+ PASS  src/tests/App.test.tsx
+  √ Boş metin girildiğinde sonuç da boş olmalı (2901 ms)
+  √ Normal metin ters çevriliyor mu (17 ms)
+  √ Özel karakterler ters çevriliyor mu (14 ms)
+  √ Temizle butonu çalışıyor mu (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        6.07 s
+Ran all test suites.
+```
+
 ## 📁 Proje Yapısı
 
 ```
 /reverse-text-app
-├── App.js
+├── App.tsx
 ├── /src
 │   ├── /components
-│   │   ├── TextInputComponent.js
-│   │   └── ButtonComponent.js
+│   │   ├── TextInputComponent.tsx
+│   │   └── ButtonComponent.tsx
 │   └── /tests
-│       └── App.test.js
+│       └── App.test.tsx
 └── README.md
 ```
-
-## 🧪 Test Senaryoları
-
-- Boş metin ters çevrilmemeli
-- Normal metin ters çevrilmeli
-- Özel karakterler ters çevrilmeli
-- Temizle butonu çalışmalı
-- Uzun metin girildiğinde hata mesajı gösterilmeli
 
 ## 📝 Lisans
 
